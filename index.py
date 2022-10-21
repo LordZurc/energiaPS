@@ -16,16 +16,6 @@ def valida_numero():
             print('Erro, Insira um valor númérico!')
     return pesquisar
 
-# def valida_numero(pesq):
-#     while True:
-#         pesq = input('Escolha uma opção: »»»  ')
-#         if pesq.isnumeric():
-#             pesquisar = (int(pesq))
-#             break
-#         else:
-#             print('Erro, Insira um valor númérico!')
-#     return pesquisar
-
 
 while True:
     os.system('cls')
@@ -41,10 +31,6 @@ Menu Principal:
     ''')
     print('='*40)
     menu_principal = valida_numero()
-
-    # menu_principal = int(input('Escolha uma opção: »»»  '))
-    # valida_numero(menu_principal)
-
     if menu_principal == 1:
         while True:
             os.system('cls')
